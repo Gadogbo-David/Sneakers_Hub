@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Elements Styling */
+.MainNav{
+    padding: 30px;
+    height: 85px;
+    width: auto;
+    background-color: black;
+    
+  
+}
+
+/* TopNav Bar Elements styling */
+.top-navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navLogo{
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 2%;
+    color: white;
+
+}
+
+
+.navSearch{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+
+.searchInput{
+   padding: 5px 5px ;
+   border: none;
+   outline: none;
+   box-shadow: none;
+   background: transparent;
+   cursor: pointer;
+   
+   
+}
+
+.searchInput::placeholder{
+    color: white;
+    opacity: 1;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.searchImage{
+    cursor: pointer;
+}
+
+.limitedOffer{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: underline green;
+    margin-right: 2%;
+    color: white;
+    
+}
