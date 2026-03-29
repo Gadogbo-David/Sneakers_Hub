@@ -6,7 +6,7 @@
 /* Navbar Elements Styling */
 .MainNav{
     padding: 30px;
-    height: 85px;
+    height: 90px;
     width: auto;
     background-color: black;
     
@@ -68,5 +68,20 @@
     text-decoration: underline green;
     margin-right: 2%;
     color: white;
+    
+}
+
+/* Bottom NavBar Styling */
+.bottom-navBar{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.bottonElements{
+    margin-right: 8%;
+    color: lightgray;
     
 }
