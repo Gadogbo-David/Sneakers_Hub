@@ -104,8 +104,8 @@
     
 }
 
-.sliderMainElements{
-    position: relative;
+.Sliderelement{
+   position: relative;
 }
 
 .sliderTitle{
@@ -168,4 +168,52 @@
     background-color: white;
     color: black;
     transition: all 0.5s ease-in-out;
+}
+
+/* Airforce Styling */
+#airforcePicture{
+    margin-bottom: 5%;
+    left: 3%;
+
+}
+
+#airForceTitle{
+    font-size: 4rem;
+}
+
+#airforceBuyButton{
+    position: absolute;
+    right: 14%;
+    bottom: 20%;
+}
+
+/* New Balance Styling */
+#newBalancePicture{
+    left: 4%;
+}
+
+#newBalanceBuyButton{
+    right: 18%;
+    bottom: 15%;
+}
+
+/* Nike Elements */
+#nikePicture{
+    left: 3%;
+    margin-top: 3%;
+}
+
+#nikeBuyButton{
+    bottom: 5%;
+    right: 13%;
+}
+
+/* Timberland Styling */
+#timberlandPicture{
+    left: 6%;
+}
+
+#timberlandBuyButton{
+    right: 16%;
+    bottom: 15%;
 }
