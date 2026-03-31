@@ -95,6 +95,7 @@
     cursor: pointer;
 }
 
+
 /* Slider Styling */
 .slider{
     background-image: url(Images/backround\ image.jpg);
@@ -105,7 +106,13 @@
 }
 
 .Sliderelement{
-   position: relative;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
 }
 
 .sliderTitle{
@@ -132,8 +139,8 @@
 
 .sliderPicture{
     position: relative;
-    margin-left: 27%;
-     z-index: 2;
+    margin-right: 10%;
+    z-index: 2;
 }
 
 .sliderPrice{
@@ -217,3 +224,11 @@
     right: 16%;
     bottom: 15%;
 }
+
+/* Styling The Main Elements In Slider */
+.sliderMainElements{
+    display: flex;
+    width: 500vw;
+    
+}
+
