@@ -174,13 +174,12 @@
     cursor: pointer;
     background-color: white;
     color: black;
-    transition: all 0.5s ease-in-out;
 }
 
 /* Airforce Styling */
 #airforcePicture{
     margin-bottom: 5%;
-    left: 3%;
+    right: -1%;
 
 }
 
@@ -196,12 +195,13 @@
 
 /* New Balance Styling */
 #newBalancePicture{
-    left: 4%;
+    left: 1%;
+    bottom: 9%;
 }
 
 #newBalanceBuyButton{
     right: 18%;
-    bottom: 15%;
+    bottom: 20%;
 }
 
 /* Nike Elements */
@@ -211,25 +211,27 @@
 }
 
 #nikeBuyButton{
-    bottom: 5%;
-    right: 13%;
+    bottom: 20%;
+    right: 12%;
 }
 
 /* Timberland Styling */
 #timberlandPicture{
-    left: 6%;
+    left: 2%;
 }
 
 #timberlandBuyButton{
     right: 16%;
-    bottom: 15%;
+    bottom: 20%;
 }
 
 /* Styling The Main Elements In Slider */
 .sliderMainElements{
     display: flex;
     width: 500vw;
-    
+    transition: all 1.5s ease-in-out;
+
+
 }
 
 /* Making Every Specific Slider Background Change Color */
