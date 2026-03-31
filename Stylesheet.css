@@ -232,3 +232,23 @@
     
 }
 
+/* Making Every Specific Slider Background Change Color */
+
+.Sliderelement:nth-child(1) .sliderBG{
+        background-color: gray;
+}
+.Sliderelement:nth-child(2) .sliderBG{
+        background-color: rgb(44, 41, 41);
+}
+.Sliderelement:nth-child(3) .sliderBG{
+        background-color: burlywood;
+}
+.Sliderelement:nth-child(4) .sliderBG{
+        background-color: darkolivegreen;
+}
+.Sliderelement:nth-child(5) .sliderBG{
+        background-color: rgb(44, 41, 41);
+}
+
+
+
