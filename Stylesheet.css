@@ -252,5 +252,37 @@
         background-color: rgb(44, 41, 41);
 }
 
+/* Features Elements Design */
+.mainFeatures{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
+}
 
+.featureselements{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    padding: 5px 10px;
+}
+
+.featuresimage{
+    width: 90px;
+    height: auto;
+    align-self: center;
+    justify-content: center;
+    display: block;
+    
+}
+
+.featuresTitle{
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.contactParagraph{
+    color: gray;
+}
