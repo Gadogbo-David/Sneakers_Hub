@@ -261,8 +261,9 @@
 }
 
 .featureselements{
-    display: grid;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     justify-content: center;
     width: 250px;
     padding: 5px 10px;
@@ -274,6 +275,7 @@
     align-self: center;
     justify-content: center;
     display: block;
+    margin-right: 10%;
     
 }
 
