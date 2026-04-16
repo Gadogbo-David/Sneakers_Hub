@@ -334,6 +334,9 @@
        
 }
 
+.colors:last-child{
+      background-color: red;
+}
 
 .colors{
     width: 10px;
