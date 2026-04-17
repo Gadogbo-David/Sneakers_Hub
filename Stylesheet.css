@@ -159,12 +159,12 @@
 .sliderBuyButton{
     position: absolute;
     bottom: 23%;
-    right: 17%;
+    right: 15%;
     font-size: 1.2rem;
     font-weight: bold;
     padding: 10px 20px;
     background-color: black;
-    color: white;
+    color: white;  
     border-radius: 7%;
     border: none;
      z-index: 1;
@@ -191,7 +191,7 @@
 
 #airforceBuyButton{
     position: absolute;
-    right: 14%;
+    right: 13%;
     bottom: 20%;
 }
 
@@ -202,7 +202,7 @@
 }
 
 #newBalanceBuyButton{
-    right: 18%;
+    right: 17%;
     bottom: 20%;
 }
 
@@ -335,7 +335,7 @@
 }
 
 .colors:last-child{
-      background-color: red;
+      background-color: blue;
 }
 
 .colors{
