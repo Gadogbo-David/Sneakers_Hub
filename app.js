@@ -19,7 +19,7 @@ const products = [
 
       },
       { 
-        img: "Images/Balenciaga Black 2.png",
+        img: "Images/balenciaga black 11.png",
        color: "black",
       }
 
@@ -39,7 +39,7 @@ const products = [
        color: "black",
       },
       {
-        img: "Images/Airforce white 11.png",
+        img: "Images/Airforce white 22.png",
         color: "white"
       }
 
@@ -60,8 +60,8 @@ const products = [
       },
       {
         
-        img: "Images/New balance ash 2.png",
-       color: "Ash",
+        img: "Images/New balance red 11.png",
+       color: "red",
       }
 
     ]
@@ -82,7 +82,7 @@ const products = [
       },
       {
        
-        img: "Images/Nike Black 2.png",
+        img: "Images/Nike black 11.png",
        color: "black",
       }
 
@@ -102,8 +102,8 @@ const products = [
        color: "black",
       },
       {
-        img: "Images/Timberland white 2.png",
-        color: "white"
+        img: "Images/Timberland white 11.png",
+        color: "gray"
       }
 
     ]
@@ -138,14 +138,15 @@ menu.forEach( (element,index) => {
             })
         })
 
+         
+        // Assign new colors for products
+    currentproductColor.forEach( (colors,index) => {
 
+        colors.style.backgroundColor = Products.types[index].color;
+
+    })
         
       })
 });
 
- // Assign new colors for products
-    currentproductColor.forEach( (colors,index) => {
-
-        colors.style.backgroundColor = Products.colors[index].color;
-
-    })
+ 
