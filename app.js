@@ -10,7 +10,7 @@ const products = [
     Id: 1,
     Title: "BALENCIAGA",
     Price: 350,
-    Desc: "  BALENCIAGA BALENCIAGA BALENCIAGA BALENCIAGA BALENCIAGA",
+    Desc: "  Balenciaga blends luxury craftsmanship with bold, modern design—clean, edgy, and made to stand out.",
      types:[
        {
 
@@ -31,7 +31,7 @@ const products = [
     Id: 2,
     Title: "AIR FORCE",
     Price: 550,
-    Desc: "  AIR FORCE AIR FORCE AIR FORCE AIR FORCE AIR FORCE  ",
+    Desc: "  Classic, clean, and always in style—Air Force delivers timeless streetwear with everyday comfort.  ",
     types: [
       
       {
@@ -51,7 +51,7 @@ const products = [
     Id: 3,
     Title: "NEW BALANCE",
     Price: 800,
-    Desc: " NEW BALANCE NEW BALANCE NEW BALANCE NEW BALANCE NEW BALANCE  ",
+    Desc: " New Balance blends comfort and performance with a laid-back style that fits any vibe.  ",
     types: [
       
       {
@@ -72,7 +72,7 @@ const products = [
     Id: 4,
     Title: "NIKE",
     Price: 150,
-    Desc: "  NIKE NIKE NIKE NIKE NIKE NIKE NIKE NIKE NIKE NIKE NIKE  ",
+    Desc: " Nike combines innovation and style, pushing you to move better and look good doing it.  ",
     types: [
       
       {
@@ -94,7 +94,7 @@ const products = [
     Id: 5,
     Title: "TIMBERLAND",
     Price: 450,
-    Desc: " TIMBERLAND TIMBERLAND TIMBERLAND TIMBERLAND TIMBERLAND ",
+    Desc: " Timberland brings rugged durability and bold style, built to handle the streets and beyond. ",
     types: [
       
       {
@@ -148,5 +148,6 @@ menu.forEach( (element,index) => {
         
       })
 });
+
 
  
