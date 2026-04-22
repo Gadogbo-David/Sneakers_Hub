@@ -118,7 +118,7 @@ const currentproductPrice = document.querySelector(".productPrice");
 const currentproductDesc = document.querySelector(".productDesc");
 const currentproductImage = document.querySelector(".productImage");
 const currentproductColor = document.querySelectorAll(".colors");
-const currentsize = document.getElementsByClassName(".size");
+const currentsize = document.querySelectorAll(".sizes");
 
 
 menu.forEach( (element,index) => {
@@ -149,5 +149,15 @@ menu.forEach( (element,index) => {
       })
 });
 
+// Making The Sizes change background color when clicked on
+currentsize.forEach( (size,index) => {
+     size.addEventListener("click",() =>{
 
- 
+        currentsize.forEach( (size) => {
+             size.style.backgroundColor = "white";
+        size.style.color = "black";
+        })
+        size.style.backgroundColor = "black";
+        size.style.color = "white";
+     })
+})
