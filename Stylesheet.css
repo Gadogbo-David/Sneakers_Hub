@@ -10,7 +10,7 @@ html{
 /* Navbar Elements Styling */
 .MainNav{
     padding: 30px;
-    height: 90px;
+    height: 110px;
     width: auto;
     background-color: black;
     
@@ -237,7 +237,7 @@ html{
     display: flex;
     width: 500vw;
     transition: all 1.5s ease-in-out;
-    
+
 }
 
 /* Making Every Specific Slider Background Change Color */
