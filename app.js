@@ -40,7 +40,7 @@ const products = [
       },
       {
         img: "Images/Airforce white 22.png",
-        color: "white"
+        color: "gray"
       }
 
     ]

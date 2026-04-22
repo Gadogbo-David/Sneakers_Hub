@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+   scroll-behavior: smooth;
+}
+
 /* Navbar Elements Styling */
 .MainNav{
     padding: 30px;
@@ -12,6 +16,7 @@
     
   
 }
+
 
 /* TopNav Bar Elements styling */
 .top-navBar{
