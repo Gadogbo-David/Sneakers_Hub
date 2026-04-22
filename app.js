@@ -10,7 +10,7 @@ const products = [
     Id: 1,
     Title: "BALENCIAGA",
     Price: 350,
-    Desc: "  Balenciaga blends luxury craftsmanship with bold, modern design—clean, edgy, and made to stand out.",
+    Desc: "  Balenciaga brings a bold fusion of luxury and streetwear, redefining modern fashion with its innovative designs and standout silhouettes. Known for pushing boundaries, the brand combines high-end craftsmanship with edgy aesthetics, making every piece a statement of confidence and individuality.",
      types:[
        {
 
@@ -31,7 +31,7 @@ const products = [
     Id: 2,
     Title: "AIR FORCE",
     Price: 550,
-    Desc: "  Classic, clean, and always in style—Air Force delivers timeless streetwear with everyday comfort.  ",
+    Desc: " The New Air Force brings a bold fusion of luxury and streetwear, redefining modern fashion with its innovative designs and standout silhouettes. Known for pushing boundaries, the brand combines high-end craftsmanship with edgy aesthetics, making every piece a statement of confidence and individuality.  ",
     types: [
       
       {
@@ -51,7 +51,7 @@ const products = [
     Id: 3,
     Title: "NEW BALANCE",
     Price: 800,
-    Desc: " New Balance blends comfort and performance with a laid-back style that fits any vibe.  ",
+    Desc: " New Balance brings a bold fusion of luxury and streetwear, redefining modern fashion with its innovative designs and standout silhouettes. Known for pushing boundaries, the brand combines high-end craftsmanship with edgy aesthetics, making every piece a statement of confidence and individuality.  ",
     types: [
       
       {
@@ -72,7 +72,7 @@ const products = [
     Id: 4,
     Title: "NIKE",
     Price: 150,
-    Desc: " Nike combines innovation and style, pushing you to move better and look good doing it.  ",
+    Desc: "The New Nike brings a bold fusion of luxury and streetwear, redefining modern fashion with its innovative designs and standout silhouettes. Known for pushing boundaries, the brand combines high-end craftsmanship with edgy aesthetics, making every piece a statement of confidence and individuality.  ",
     types: [
       
       {
@@ -94,7 +94,7 @@ const products = [
     Id: 5,
     Title: "TIMBERLAND",
     Price: 450,
-    Desc: " Timberland brings rugged durability and bold style, built to handle the streets and beyond. ",
+    Desc: " The New Timberland brings a bold fusion of luxury and streetwear, redefining modern fashion with its innovative designs and standout silhouettes. Known for pushing boundaries, the brand combines high-end craftsmanship with edgy aesthetics, making every piece a statement of confidence and individuality. ",
     types: [
       
       {
