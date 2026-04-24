@@ -393,3 +393,91 @@ html{
     transition: all 1s ease-in-out;
 
 }
+
+/* Payment Styling */
+.payment{
+   width: 500px;
+   height: 550px;
+   padding: 10px 30px;
+   position: absolute;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   margin: auto;
+   -webkit-box-shadow:0px 0px 27px -3px rgba(0,0,0,0.87);
+   box-shadow: 0px 0px 27px -3px rgba(0,0,0,0.87);
+   
+}
+
+.paymentTitle{
+    font-size: 1.3rem;
+    padding: 10px;
+    color: rgb(190, 182, 182);
+}
+
+label{
+  padding: 5px;
+  font-size: 0.9rem;
+
+}
+
+.paymentInput{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid;
+
+}
+
+.paymentInput::placeholder{
+    color: rgb(220, 38, 38);
+    font-size: 0.8rem;
+}
+
+.paymentInput.mode{
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-right: 10%;
+    padding: 10px;
+}
+
+.paymentBTN{
+    position: absolute;
+    bottom: -5%;
+    padding: 10px 30px;
+    width: 100%;
+    height: 9%;
+    right: 0;
+    background-color: rgb(70, 169, 70);
+    color: white;
+    border: none;
+    -webkit-box-shadow:0px 0px 27px -3px rgba(0,0,0,0.87);
+   box-shadow: 0px 0px 27px -3px rgba(0,0,0,0.87);
+   cursor: pointer;
+   margin-bottom: 5%;
+    
+}
+
+.paymentBTN:hover{
+    font-size: 1rem;
+        transition: all 0.5s ease-in-out;
+
+}
+
+.paymentClose{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    color: white;
+    text-align: center;
+    right: 3%;
+    top: 5%;
+
+}
