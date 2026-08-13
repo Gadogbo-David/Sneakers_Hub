@@ -161,3 +161,8 @@ currentsize.forEach( (size,index) => {
         size.style.color = "white";
      })
 })
+
+const paymenttouch = document.querySelector(".payment");
+const paymentClosetouch = document.querySelector(".paymentClose");
+const productBuyButtontouch = document.querySelector(".productBuyButton");
+

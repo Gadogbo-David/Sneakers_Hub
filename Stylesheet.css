@@ -481,3 +481,7 @@ label{
     top: 5%;
 
 }
+
+.paymentClose:hover{
+    cursor: pointer;
+}
